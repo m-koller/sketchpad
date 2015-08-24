@@ -4,8 +4,6 @@ $(document).ready(function()	{
 		$(".container").append('<div class="grid"></div>');
 	}
 
-	grid;
-
 	$(".grid").hover(function()	{
 		$(this).css("background-color", "orange");
 	}, function()	{
