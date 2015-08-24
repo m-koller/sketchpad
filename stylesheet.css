@@ -2,12 +2,12 @@
 	height: 370px;
 	width: 370px;
 	font-size: 0px;
-	margin: 150px auto;
+	margin: 100px auto;
 }
 
 #clear_grid	{
 	display: block;
-	margin: 0 auto;
+	margin: 10px auto;
 }
 
 .grid 	{
