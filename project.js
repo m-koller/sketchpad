@@ -3,13 +3,13 @@ function createGrid(grid) {
   $('.grid').removeAttr('height');
 
 	for (var i = 0; i < grid; i++) {
-		$('.container').append('<div class="row">');
+		$('.containerDiv').append('<div class="row">');
 
 		for (var j = 0; j < grid; j++) {
-			$('.container').append('<div class="grid"></div>');
+			$('.containerDiv').append('<div class="grid"></div>');
 		}
 
-		$('.container').append('</div>');
+		$('.containerDiv').append('</div>');
 	}
 	$('.grid').css('height', 320 / grid);
 	$('.grid').css('width', 320 / grid);

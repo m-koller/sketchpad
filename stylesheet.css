@@ -1,15 +1,13 @@
-.container	{
+.containerDiv	{
 	height: 370px;
 	width: 370px;
 	font-size: 0px;
 	margin: 100px auto;
 }
-
 #clear_grid	{
 	display: block;
 	margin: 10px auto;
 }
-
 .grid 	{
 	border: 1px solid black;
 	height: 20px;
